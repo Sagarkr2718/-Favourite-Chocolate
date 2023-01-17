@@ -1,0 +1,11 @@
+public class Solution {
+    public int solve(int A, int B, int C) {
+        int chocolates=0;
+        chocolates = A/B;
+        if(chocolates>C){
+            return C;
+        }
+        else
+        return chocolates;
+    }
+}
